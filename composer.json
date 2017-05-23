@@ -1,8 +1,9 @@
 {
-    "name": "rcrowe/twigbridge",
+    "name": "ascii-soup/twigbridge",
     "description": "Adds the power of Twig to Laravel",
     "keywords": ["laravel", "twig"],
     "license": "MIT",
+    "version": "dev-master",
     "authors": [
         {
             "name": "Rob Crowe",
@@ -11,11 +12,15 @@
         {
             "name": "Barry vd. Heuvel",
             "email": "barryvdh@gmail.com"
+        },
+        {
+            "name": "Nils Luxton",
+            "email": "asciisoup@gmail.com"
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "twig/twig": "~1.30",
+        "php": ">=7.0.0",
+        "twig/twig": "~2.0",
         "illuminate/support": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*",
         "illuminate/view": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*"
     },
